@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{1EA221DE-41EE-DB7E-7725-06112C0A672F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Manager/BoardManager.cs">
+    <Files>
+      <File FileName="Assets/Script/Manager/BoardManager.cs" Line="84" Column="26" />
+      <File FileName="Assets/_Complete-Game/Scripts/BoardManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Manager/GameManager.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RoguelikeExample" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Script" expanded="True">
+                <Node name="Manager" expanded="True">
+                  <Node name="BoardManager.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
