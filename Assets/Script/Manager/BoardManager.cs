@@ -46,7 +46,7 @@ namespace Completed
 
         private void Start()
         {
-            SetupScene();
+            
         }
 
         private void InitialiseList()
@@ -107,7 +107,7 @@ namespace Completed
             }
         }
 
-        public void SetupScene()
+        public void SetupScene(int level)
         {
             BoardSetup();
             InitialiseList();
@@ -117,7 +117,8 @@ namespace Completed
             //Instantiate a random number of food tiles based on minimum and maximum, at randomized positions.
             LayoutObjectAtRandom(foodTiles, FoodCount.minimum, FoodCount.maximum);
 
-    
+            int enemyCount = (int)Math.Log(level, 2f);
+            LayoutObjectAtRandom(enemyTiles, enemyCount, enemyCount);
 
             //Instantiate the exit tile in the upper right hand corner of our game board
             Instantiate(exit, new Vector3(columns - 1, rows - 1, 0f), Quaternion.identity);
