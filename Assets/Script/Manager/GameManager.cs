@@ -6,9 +6,13 @@ using Completed;
 public class GameManager : MonoBehaviour {
 
     // Use this for initialization
-    public static GameManager instance;
+    public static GameManager   instance;
 
-    private BoardManager boardManager;
+
+
+    public  int                 playerFoodPoints;
+    public  bool                playersTurn;
+    private BoardManager        boardManager;
     private int level = 3;
 
     void Awake()
